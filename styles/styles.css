@@ -1,0 +1,367 @@
+:root {
+  --primary-font: "Poppins", sans-serif;
+  --heading-font: "Playfair Display", serif;
+  --branding-color: #f1e9e3;
+  --secondary-color: #b24a5f;
+  --heading-color: #312a2b;
+  --contact-btn-color: #92253f;
+}
+header {
+  padding: 65px !important;
+  background-color: var(--branding-color);
+  max-width: 100%;
+}
+
+header h3 {
+  font-size: 40px;
+  font-family: var(--heading-font);
+  color: var(--heading-color);
+}
+h1 {
+  font-family: var(--heading-font);
+  font-size: 80px;
+  font-weight: bold;
+}
+h3 {
+  font-family: var(--primary-font);
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-family: var(--heading-font);
+  font-size: 50px;
+}
+
+h4 {
+  font-family: var(--heading-font);
+  font-size: 25px;
+  font-weight: normal;
+}
+
+h6 {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: normal;
+}
+
+p {
+  font-family: var(--primary-font);
+  color: var(--heading-color);
+  font-size: 16px;
+  font-weight: normal;
+}
+span {
+  display: flex;
+  justify-content: center;
+}
+a {
+  color: var(--heading-color);
+  text-decoration: none;
+  cursor: default;
+}
+a :hover {
+  color: var(--secondary-color);
+}
+
+.hero {
+  margin: 0 -13px;
+  text-align: left;
+  background-color: var(--branding-color);
+  padding: 100px 0 80px;
+  color: var(--heading-color);
+}
+.hero p {
+  font-family: var(--primary-font);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.hero h2 {
+  font-family: var(--primary-font);
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.luiza {
+  width: 400px;
+  height: auto;
+}
+.first-project {
+  text-align: left;
+  margin: auto;
+  color: var(--heading-color);
+}
+
+.second-project {
+  text-align: right;
+  margin: 0;
+  color: var(--heading-color);
+}
+.contact-icons {
+  font-size: 25px;
+  margin: 15px;
+}
+
+#btn-contact-me,
+#btn-contact-me-about {
+  background-color: var(--contact-btn-color);
+  color: var(--branding-color);
+  border-color: var(--contact-btn-color);
+  opacity: 85%;
+  font-size: 18px;
+  padding: 15px 30px;
+}
+#btn-weather-app,
+#btn-adopt-app {
+  background-color: fffff;
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+#btn-launch-project {
+  background-color: var(--contact-btn-color);
+  color: var(--branding-color);
+  border-color: var(--contact-btn-color);
+  opacity: 85%;
+  font-size: 14px;
+  padding: 13px 15px;
+}
+#img-weather-app {
+  max-width: 80%;
+  height: auto;
+  margin: 8px 83px 28px;
+  border-radius: 4px;
+}
+
+#img-adopt-app {
+  max-width: 90%;
+  height: auto;
+  margin: -47px 0px 50px -33px;
+  border-radius: 4px;
+}
+
+#img-work-weather {
+  max-width: 82%;
+  height: auto;
+  margin: 8px 0 28px;
+  border-radius: 4px;
+}
+
+#img-work-adopt {
+  max-width: 82%;
+  height: auto;
+  margin: 13px -10px 40px -83px;
+  border-radius: 4px;
+}
+#img-portrait-icon {
+  max-width: 35%;
+  margin-top: -47px;
+}
+#adopt-section {
+  padding: 0 105px 0 0;
+}
+
+.content-container {
+  justify-content: space-evenly;
+  color: var(--heading-color);
+  padding-left: 100px;
+}
+
+.content-container h1 {
+  font-size: 50px;
+  padding-top: 150px;
+}
+.content-container h2 {
+  font-size: 22px;
+}
+.contact-container h1 {
+  font-size: 50px;
+}
+.about-me-image {
+  max-width: 70%;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+.box {
+  max-width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding-top: 80px;
+  color: var(--heading-color);
+  border-color: var(--heading-color) !important;
+}
+
+#email-contact :hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+@media (max-width: 915px) {
+  header {
+    padding: 40px !important;
+    background-color: var(--branding-color);
+    max-width: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  header h3 {
+    font-size: 19px;
+  }
+  h3 {
+    font-size: 17px;
+  }
+  h4 {
+    margin-top: -15px;
+    font-size: 20px;
+  }
+  h6 {
+    font-size: 12px;
+  }
+  .hero {
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 40px 0 25px 0;
+  }
+  .luiza {
+    max-width: 35%;
+    height: auto;
+    text-align: center;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+  .hero h1 {
+    font-size: 40px;
+    margin-top: -10px;
+  }
+  .hero h2,
+  .first-project h3 {
+    font-size: 20px;
+    margin-top: -10px;
+  }
+  #btn-contact-me,
+  #btn-contact-me-about {
+    margin-top: -45px;
+    font-size: 10px;
+    padding: 8px 15px;
+    text-align: center;
+    justify-content: center;
+  }
+  #btn-launch-project {
+    margin-top: -21px;
+    font-size: 10px;
+    padding: 7px 9px;
+    text-align: center;
+    justify-content: center;
+  }
+  .first-project,
+  .second-project {
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: -18px;
+    flex: 1;
+  }
+
+  .first-project p,
+  .second-project p,
+  .content-container p {
+    justify-content: center;
+    font-size: 12px;
+  }
+
+  .first-project h2,
+  .second-project h2 {
+    font-size: 25px;
+    margin-top: -15px !important;
+  }
+  .find-me {
+    margin-top: 15px !important;
+  }
+  #adopt-section {
+    padding: 0 !important;
+  }
+  #btn-weather-app,
+  #btn-adopt-app {
+    font-size: 10px;
+    padding: 8px 15px;
+  }
+
+  .content-container {
+    margin-top: 20px;
+    margin-left: -50px;
+    text-align: center;
+  }
+  .content-container h1 {
+    font-size: 23px;
+    padding: 0 !important;
+    margin-left: 29px;
+  }
+  .contact-container h1 {
+    font-size: 35px;
+    padding: 0 !important;
+    margin-bottom: 35px !important;
+  }
+  .contact-container {
+    margin-top: 100px;
+    text-align: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .content-container h2 {
+    font-size: 14px;
+  }
+  .box {
+    max-width: 320px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+  }
+
+  #btn-contact-me-about {
+    display: block;
+    margin: -20px auto;
+    justify-content: center;
+    max-width: 50%;
+  }
+  .about-me-image {
+    max-width: 60%;
+    margin: 45px;
+  }
+
+  #img-adopt-app {
+    max-width: 90%;
+    height: auto;
+    margin: -47px 0px 50px 0px;
+    border-radius: 4px;
+  }
+  #img-work-weather {
+    max-width: 82%;
+    height: auto;
+    margin: -15px 0 28px;
+    border-radius: 4px;
+  }
+
+  #img-work-adopt {
+    max-width: 82%;
+    height: auto;
+    margin: 30px 0 28px;
+    border-radius: 4px;
+  }
+  #email-contact {
+    font-size: 10px !important;
+  }
+}
